@@ -1,0 +1,297 @@
+/*-----------------------Cabeçalho--------------------------------------------*/
+#cabecalho{
+	position:absolute;
+	width: 1345px;
+	height: 99px;
+	border: 1px solid;
+	top:0;
+	left:0;
+	
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 10px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+.corLabel{
+	color: black;
+    position: absolute;
+    top: 72px;
+    left: 498px;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Dancing-on-the-Grass, DaddysGirl, Arial, Helvetica, sans-serif;
+}
+
+.comoFunciona {
+   	position: absolute;
+    top: 40px;
+    left: 769px;
+    color: black;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 999;
+ 	display: block;
+ 	font-family: Dancing-on-the-Grass, DaddysGirl, Arial, Helvetica, sans-serif;
+    
+}
+
+.comoFunciona:hover {
+	transform: rotate(-10deg);
+	background: green;
+	border-radius: 10px;
+}
+.certificado{
+	position: absolute;
+    top: 40px;
+    left: 963px;
+    color: black;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 999;
+    display: block;
+	font-family: Dancing-on-the-Grass, DaddysGirl, Arial, Helvetica, sans-serif;
+    
+}
+.certificado:hover{
+	transform: rotate(-10deg);
+	background: green;
+	border-radius: 10px;
+}
+.entrar{
+	position: absolute;
+    top: 40px;
+    left: 1127px;
+    color: black;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 999;
+	display: block; 
+	font-family: Dancing-on-the-Grass, DaddysGirl, Arial, Helvetica, sans-serif;
+    
+}
+
+.entrar:hover{
+	transform: rotate(-10deg);
+	background: green;
+	border-radius: 10px;
+}
+.logoHome{
+	position: absolute;
+	top: 0px;
+	left: 183px;
+	background: url(../Images/Logo.png);
+	width: 335px;
+	height: 100px;
+	cursor: pointer;
+}
+
+.painel-header{
+	
+}
+
+.linkComoFunciona{
+	outline: none;
+}
+
+/*------------------------Corpo----------------------------------*/
+.painelRotativo{
+	position: absolute;
+	top:109px;
+	left: 0;
+	/*background: pink;*/
+	border: 1px solid;
+}
+.comoFuncionaSite{
+	position: absolute;
+    top: 569px;
+	left:0;
+	border: 1px solid;
+	 
+}
+
+.areaCpfEstilo{
+	position: absolute;
+    top: 219px;
+    left: 40px;
+	
+}
+
+.areaSenhaEstilo{
+	position: absolute;
+    top: 279px;
+    left: 40px;
+	
+}
+.botaoEntrar{
+	position: absolute;
+    top: 369px;
+    left: 257px;
+}
+.botaoVoltar{
+	position: absolute;
+    top: 369px;
+    left: 162px;
+	
+}
+.dialogLogin{
+	border:10px;
+	background: white;
+	border-radius: 10px;
+}
+
+.labelGer{
+	position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 499px;
+    height: 67px;
+    border: 1px solid;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Dancing-on-the-Grass, DaddysGirl, Arial, Helvetica, sans-serif;
+}
+.labelPar{
+	position: absolute;
+    top: 250px;
+    left: 70px;
+    width: 499px;
+    height: 68px;
+    border: 1px solid;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+.labelCoor{
+	position: absolute;
+    top: 160px;
+    left: 70px;
+    width: 499px;
+    height: 67px;
+    border: 1px solid;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+ 
+}
+.dialogEscolheMod{
+	boder: none;
+	background:white;
+	border-radius: 10px;
+	
+}
+
+.botaoFechar{
+	position: absolute;
+    top: 2px;
+    left: 597px;
+    background: none;
+    border: 0;
+    
+}
+.painel-tabela{
+	position: absolute;
+    top: 1126px;
+    left: 0px;
+   /* background: green;*/
+   border: 1px solid;
+}
+.listaEventos{
+	position: absolute;
+    top: 169px;
+    left: 198px;
+   /* background: magenta;*/
+    border: 1px solid;
+}
+.table{
+	border-collapse: collapse;
+}
+
+.labelPesquisarEvento{
+	position: absolute;
+    top: 23px;
+    left: 494px;
+    /* background: white; */
+    font-size: 40px;
+}
+.textfieldData{
+	position: absolute;
+    top: 95px;
+    left: 251px;
+    font-size: 14px;
+    border-radius: 4px;
+    border:0;
+    background: pink;
+    
+}
+.textfieldData:focus{
+	outline: none;
+}
+.textfieldNomeEvento{
+	position: absolute;
+	top: 95px;
+	left: 553px;
+	font-size: 14px;
+	border-radius: 4px;
+	border:0;
+	background: pink;
+}
+.textfieldNomeEvento:focus{
+	outline: none;
+}
+.labelNome{
+	position: absolute;
+    top: 104px;
+    left: 497px;
+    font-size: 18px;	
+}
+.labelData{
+	position: absolute;
+    top: 105px;
+    left: 199px;
+    font-size: 18px;
+}
+.botao-pesquisar{
+	position: absolute;
+    top: 99px;
+    left: 1037px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid;
+}
+/*--------------------------Rodape---------------------------*/
+.footer{
+	position: absolute;
+    top: 1627px;
+    left: 0;
+    border: 1px solid;
+}
