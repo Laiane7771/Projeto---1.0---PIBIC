@@ -1,11 +1,10 @@
 package edu.ifg.formosa.main.client.presenter;
 
+
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.ui.HasWidgets;
-import com.google.gwt.user.client.ui.SourcesTableEvents;
-import com.google.gwt.user.client.ui.TableListener;
 
 import edu.ifg.formosa.main.client.event.EntrarEvent;
 import edu.ifg.formosa.main.client.view.HomeView;
@@ -21,12 +20,15 @@ public class HomePresenter implements Presenter{
 	}
 
 	public void bind(){
+		
 		homeView.getEntrar().addClickHandler(new ClickHandler() {
 			
 			public void onClick(ClickEvent event) {
 				eventBus.fireEvent(new EntrarEvent());
+				
 			}
 		});
+	
 		
 		homeView.getCertificado().addClickHandler(new ClickHandler() {
 			

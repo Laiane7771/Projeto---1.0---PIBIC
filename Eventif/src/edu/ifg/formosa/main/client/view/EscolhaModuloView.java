@@ -1,6 +1,7 @@
 package edu.ifg.formosa.main.client.view;
 
 
+import com.google.gwt.animation.client.Animation;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.HTML;
@@ -13,16 +14,14 @@ public class EscolhaModuloView extends DialogBox{
 	private Label lCoordenador;
 	private Label lParticipante;
 	private Button btnFechar;
-	private Label labePedro;
 	
 	public EscolhaModuloView(){
-		
 		
 		this.setStyleName("dialogEscolheMod");
 		HTML labelEscolha = new HTML("<h1>Escolha seu Módulo:</h1>");
 		labelEscolha.addStyleName("labelEsc");
 		
-
+	
 		VerticalPanel vpe = new VerticalPanel();
 		vpe.setSize("627px", "354px");
 		lGerente = new Label("Gerente");
@@ -43,7 +42,8 @@ public class EscolhaModuloView extends DialogBox{
 		vpe.add(lCoordenador);
 		vpe.add(lParticipante);
 		vpe.add(btnFechar);
-	
+		
+		this.setPreviewingAllNativeEvents(isPreviewingAllNativeEvents());
 		this.setPopupPosition(300, 100);
 		this.setAnimationEnabled(isGlassEnabled());
 		this.add(vpe);

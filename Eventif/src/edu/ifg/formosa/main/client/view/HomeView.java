@@ -14,7 +14,6 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class HomeView extends Composite  {
 	
-	
 	private Label comoFunciona;
 	private Label certificado;
 	private Label entrar;
@@ -28,8 +27,6 @@ public class HomeView extends Composite  {
 	private Button btnPesquisar;
 	private Button btnInscrever;
 
-
-	
 	public HomeView(){
 		
 		
